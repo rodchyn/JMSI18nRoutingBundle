@@ -9,7 +9,7 @@
         <parameter key="jms_i18n_routing.locale_resolver.class">JMS\I18nRoutingBundle\Router\DefaultLocaleResolver</parameter>
         
         <parameter key="jms_i18n_routing.loader.class">JMS\I18nRoutingBundle\Router\I18nLoader</parameter>
-        <parameter key="jms_i18n_routing.route_exclusion_strategy.class">JMS\I18nRoutingBundle\Router\DefaultRouteExclusionStrategy</parameter>
+        <parameter key="jms_i18n_routing.route_exclusion_strategy.class">Linguando\UtilBundle\Router\RouteExclusionStrategy</parameter>
         <parameter key="jms_i18n_routing.pattern_generation_strategy.class">JMS\I18nRoutingBundle\Router\DefaultPatternGenerationStrategy</parameter>
         
         <parameter key="jms_i18n_routing.locale_choosing_listener.class">JMS\I18nRoutingBundle\EventListener\LocaleChoosingListener</parameter>
